@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Clarity Check</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Clarity Check</h1>
+
+    <label>
+      <input type="radio" name="lang" value="en" checked> English
+    </label>
+    <label>
+      <input type="radio" name="lang" value="es"> Español
+    </label>
+
+    <p>Why is your next appointment important?</p>
+    <select id="answer1">
+      <option value="medication">To check if medication is working</option>
+      <option value="adjustment">To adjust treatment</option>
+      <option value="routine">Just routine</option>
+      <option value="not-sure">I'm not sure</option>
+    </select>
+
+    <p>What happens if you don't go?</p>
+    <select id="answer2">
+      <option value="nothing">Nothing serious</option>
+      <option value="worsen">Condition could worsen</option>
+      <option value="emergency">May need emergency care</option>
+      <option value="not-sure">I'm not sure</option>
+    </select>
+
+    <p>When is your next appointment?</p>
+    <input type="date" id="answer3">
+
+    <label>
+      <input type="checkbox" id="callback"> I would like someone to call me
+    </label>
+
+    <button id="submit-btn">Submit</button>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
