@@ -40,3 +40,9 @@ button {
   margin-top: 10px;
   cursor: pointer;
 }
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 140px;
+  border-radius: 12px;
+}
